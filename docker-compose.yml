@@ -11,8 +11,12 @@ services:
     networks:
       default:
       baghirasf1:
+      bozforum:
 
 networks:
   baghirasf1:
     external:
       name: baghirasf1_default
+  bozforum:
+    external:
+      name: bozforum_default
