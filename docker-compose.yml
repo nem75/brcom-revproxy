@@ -12,6 +12,7 @@ services:
       default:
       baghirasf1:
       bozforum:
+      baghirawp:
 
 networks:
   baghirasf1:
@@ -20,3 +21,7 @@ networks:
   bozforum:
     external:
       name: bozforum_default
+  baghirawp:
+    external:
+      name: baghirawp_default
+
