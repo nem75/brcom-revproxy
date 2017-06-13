@@ -13,6 +13,7 @@ services:
       baghirasf1:
       bozforum:
       baghirawp:
+      drone:
 
 networks:
   baghirasf1:
@@ -24,4 +25,6 @@ networks:
   baghirawp:
     external:
       name: baghirawp_default
-
+  drone:
+    external:
+      name: drone_default
